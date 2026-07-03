@@ -91,6 +91,10 @@ winget install -e Microsoft.PowerToys
 winget install -e Gyan.FFmpeg
 winget install -e Bruno.Bruno
 
+rem install CLIs
+npm install -g @github/copilot
+winget install -e Anthropic.ClaudeCode
+
 rem this is SysInternals Suite
 winget install -e 9P7KNL5RWT25
 
