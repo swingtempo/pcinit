@@ -13,6 +13,9 @@ reg add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /V "J
 reg add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /V "SnapAssist" /T REG_DWORD /D "0" /F
 reg add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /V "SnapFill" /T REG_DWORD /D "0" /F
 
+:: Disable Aero Peek
+reg add "HKCU\SOFTWARE\Microsoft\Windows\DWM" /V "EnableAeroPeek" /T REG_DWORD /D "0" /F
+
 :: remove alt tab to Edge
 reg add "HKCU\Software\Policies\Microsoft\Windows\Explorer" /V "MultiTaskingAltTabFilter" /T REG_DWORD /D "4" /F
 
