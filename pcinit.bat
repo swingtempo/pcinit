@@ -119,6 +119,9 @@ winget install -e Microsoft.VisualStudio.2022.Enterprise
 winget install -e OliverBetz.ExifTool
 winget install -e FrankBijnen.ExifToolGUI
 
+winget install --id=BurntSushi.ripgrep.GNU -e 
+
+
 rem this is Surface app
 winget install -e 9WZDNCRFJB8P
 
