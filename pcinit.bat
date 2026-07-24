@@ -76,7 +76,7 @@ winget install -e Microsoft.RemoteDesktopClient
 winget install -e Microsoft.Teams
 winget install -e OpenJS.NodeJS.LTS
 winget install -e Yarn.Yarn
-winget install -e Microsoft.Office
+rem winget install -e Microsoft.Office
 winget install -e Git.Git
 winget install -e --id GitHub.GitLFS
 winget install -e Git.GCM

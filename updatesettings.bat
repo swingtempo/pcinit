@@ -29,4 +29,4 @@ rem show file name extensions
 reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced /v HideFileExt /t REG_DWORD /d 0 /f
 
 ::Add search engines
-REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge" /v ManagedSearchEngines /t REG_SZ /d "[{\"keyword\": \"obo\", \"name\": \"Bohemia\", \"search_url\": \"https://office.visualstudio.com/OC/_search?action=contents^&text={searchTerms}^&type=code^&lp=code-Project^&filters=ProjectFilters%7BOC%7DRepositoryFilters%7Boffice-bohemia%7D^&pageSize=250\"}]" /f
+REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge" /v ManagedSearchEngines /t REG_SZ /d "[{\"keyword\": \"yt\", \"name\": \"YouTube\", \"search_url\": \"https://www.youtube.com/results?search_query={searchTerms}\"}]" /f
