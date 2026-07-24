@@ -113,8 +113,8 @@ winget install -e Microsoft.RemoteDesktopClient
 
 winget install -e Telerik.Fiddler.Classic
 winget install -e Microsoft.Azure.StorageExplorer
-winget install -e Microsoft.PowerBI
-winget install -e Microsoft.VisualStudio.2022.Enterprise
+rem winget install -e Microsoft.PowerBI
+rem winget install -e Microsoft.VisualStudio.2022.Enterprise
 
 winget install -e OliverBetz.ExifTool
 winget install -e FrankBijnen.ExifToolGUI
@@ -123,7 +123,7 @@ winget install --id=BurntSushi.ripgrep.GNU -e
 
 
 rem this is Surface app
-winget install -e 9WZDNCRFJB8P
+rem winget install -e 9WZDNCRFJB8P
 
 rem this is TreeSize Free
 winget install -e JAMSoftware.TreeSizeFree
@@ -133,7 +133,7 @@ git config --global --add safe.directory '*'
 
 rem set git config
 git config --global user.name %USERNAME%
-git config --global user.email %USERNAME%@microsoft.com
+git config --global user.email %USERNAME%
 
 rem Windows Defender exclusions
 powershell -Command Add-MpPreference -ExclusionPath "D:\src"
