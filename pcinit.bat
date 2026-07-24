@@ -99,10 +99,10 @@ rem this is SysInternals Suite
 winget install -e 9P7KNL5RWT25
 
 rem this is Microsoft Whiteboard
-winget install -e 9MSPC6MP8FM4
+rem winget install -e 9MSPC6MP8FM4
 
 rem this is Microsoft Loop
-winget install -e 9P1HQ5TQZMGD
+rem winget install -e 9P1HQ5TQZMGD
 
 rem this is Clipchamp
 winget install -e 9P1J8S7CCWWT
