@@ -79,6 +79,7 @@ winget install -e Yarn.Yarn
 rem winget install -e Microsoft.Office
 winget install -e Git.Git
 winget install -e --id GitHub.GitLFS
+winget install --id GitHub.cli
 winget install -e Git.GCM
 winget install -e TortoiseGit.TortoiseGit
 winget install -e dotPDNLLC.paintdotnet
