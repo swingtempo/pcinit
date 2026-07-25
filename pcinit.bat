@@ -125,6 +125,9 @@ winget install --id=BurntSushi.ripgrep.GNU -e
 rem this is Surface app
 rem winget install -e 9WZDNCRFJB8P
 
+rem this is CrystalDiskInfo
+winget install -e XP8K4RGX25G3GM
+
 rem this is TreeSize Free
 winget install -e JAMSoftware.TreeSizeFree
 
