@@ -90,10 +90,14 @@ winget install -e Microsoft.VisualStudioCode
 winget install -e Microsoft.PowerToys
 winget install -e Gyan.FFmpeg
 winget install -e Bruno.Bruno
+winget install -e RubyInstallerTeam.RubyWithDevKit.4.0
+winget install -e dotPDN.PaintDotNet
 
 rem install CLIs
 npm install -g @github/copilot
 winget install -e Anthropic.ClaudeCode
+npm install -g @openai/codex
+npm install -g opencode-ai
 
 rem this is SysInternals Suite
 winget install -e 9P7KNL5RWT25
@@ -151,3 +155,5 @@ rem del %LOCALAPPDATA%\Microsoft\WindowsApps\notepad.exe
 rem uninstall windows 11 notepad
 powershell -command "Get-AppxPackage *Microsoft.WindowsNotepad* | Remove-AppxPackage"
 
+rem npm's
+npm install -g omniroute
