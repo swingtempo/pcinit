@@ -103,6 +103,9 @@ npm install -g opencode-ai
 rem this is SysInternals Suite
 winget install -e 9P7KNL5RWT25
 
+rem this is Microsoft Photos Legacy
+winget install -e 9nv2l4xvmcxm
+
 rem this is Microsoft Whiteboard
 rem winget install -e 9MSPC6MP8FM4
 
