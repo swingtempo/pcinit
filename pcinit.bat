@@ -93,6 +93,7 @@ winget install -e Gyan.FFmpeg
 winget install -e Bruno.Bruno
 winget install -e RubyInstallerTeam.RubyWithDevKit.4.0
 winget install -e dotPDN.PaintDotNet
+winget install -e TechPowerUp.GPU-Z
 
 rem install CLIs
 npm install -g @github/copilot
