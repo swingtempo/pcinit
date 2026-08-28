@@ -71,32 +71,32 @@ rem set up BGInfo Update
 rem call up settings
 call updatesettings.bat
 
-rem winget install -e Microsoft.RemoteDesktopClient
-rem winget install -e Microsoft.Teams
+:winget install -e Microsoft.Sysinternals.BGInfo
+:winget install -e Microsoft.RemoteDesktopClient
+:winget install -e Microsoft.Teams
 winget install -e OpenJS.NodeJS.LTS
-rem winget install -e Yarn.Yarn
-rem winget install -e Microsoft.Office
-winget install -e Git.Git
-winget install -e --id GitHub.GitLFS
-rem winget install --id GitHub.cli
-rem winget install -e Git.GCM
+:winget install -e Yarn.Yarn
+winget install -e Microsoft.Office
+:winget install -e Git.Git
+:winget install -e --id GitHub.GitLFS
+:winget install --id GitHub.cli
+:winget install -e Git.GCM
 winget install -e TortoiseGit.TortoiseGit
 winget install -e dotPDNLLC.paintdotnet
 winget install -e VideoLAN.VLC
 winget install -e Google.Chrome
 winget install -e Mozilla.Firefox
-rem winget install -e Microsoft.AzureCLI
+:winget install -e Microsoft.AzureCLI
 winget install -e Microsoft.VisualStudioCode
 winget install -e Microsoft.PowerToys
 winget install -e Gyan.FFmpeg
-rem winget install -e Bruno.Bruno
-winget install -e RubyInstallerTeam.RubyWithDevKit.4.0
-rem winget install -e TechPowerUp.GPU-Z
+:winget install -e Bruno.Bruno
+:winget install -e RubyInstallerTeam.RubyWithDevKit.4.0
 
 rem install CLIs
-npm install -g @github/copilot
-winget install -e Anthropic.ClaudeCode
-npm install -g @openai/codex
+:npm install -g @github/copilot
+:winget install -e Anthropic.ClaudeCode
+:npm install -g @openai/codex
 npm install -g opencode-ai
 
 rem this is SysInternals Suite
@@ -112,17 +112,19 @@ rem this is Microsoft Loop
 rem winget install -e 9P1HQ5TQZMGD
 
 rem this is Clipchamp
-rem winget install -e 9P1J8S7CCWWT
+:winget install -e 9P1J8S7CCWWT
 
 winget install -e 7zip.7zip
 
-rem winget install -e Telerik.Fiddler.Classic
-rem winget install -e Microsoft.Azure.StorageExplorer
-rem winget install -e Microsoft.PowerBI
-rem winget install -e Microsoft.VisualStudio.2022.Enterprise
+:winget install -e Microsoft.RemoteDesktopClient
 
-rem winget install -e OliverBetz.ExifTool
-rem winget install -e FrankBijnen.ExifToolGUI
+:winget install -e Telerik.Fiddler.Classic
+:winget install -e Microsoft.Azure.StorageExplorer
+:rem winget install -e Microsoft.PowerBI
+:rem winget install -e Microsoft.VisualStudio.2022.Enterprise
+
+:winget install -e OliverBetz.ExifTool
+:winget install -e FrankBijnen.ExifToolGUI
 
 winget install --id=BurntSushi.ripgrep.GNU -e 
 
@@ -144,8 +146,8 @@ git config --global user.name %USERNAME%
 git config --global user.email %USERNAME%
 
 rem Windows Defender exclusions
-powershell -Command Add-MpPreference -ExclusionPath "D:\src"
-powershell -Command Add-MpPreference -ExclusionPath "c:\src"
+:powershell -Command Add-MpPreference -ExclusionPath "D:\src"
+:powershell -Command Add-MpPreference -ExclusionPath "c:\src"
 powershell -Command Add-MpPreference -ExclusionPath "$env:localappdata\npm-cache"
 powershell -Command Add-MpPreference -ExclusionPath "$env:localappdata\yarn"
 
@@ -154,7 +156,7 @@ rem powershell -inputformat none -outputformat none -NonInteractive -Command rem
 rem del %LOCALAPPDATA%\Microsoft\WindowsApps\notepad.exe
 
 rem uninstall windows 11 notepad
-powershell -command "Get-AppxPackage *Microsoft.WindowsNotepad* | Remove-AppxPackage"
+:powershell -command "Get-AppxPackage *Microsoft.WindowsNotepad* | Remove-AppxPackage"
 
 rem npm's
 npm install -g omniroute
