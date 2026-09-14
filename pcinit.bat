@@ -94,10 +94,12 @@ winget install -e RubyInstallerTeam.RubyWithDevKit.4.0
 rem winget install -e TechPowerUp.GPU-Z
 
 rem install CLIs
-npm install -g @github/copilot
-winget install -e Anthropic.ClaudeCode
-npm install -g @openai/codex
-npm install -g opencode-ai
+rem npm install -g @github/copilot
+rem winget install -e Anthropic.ClaudeCode
+rem npm install -g @openai/codex
+rem npm install -g opencode-ai
+npm install -g --ignore-scripts @earendil-works/pi-coding-agent
+npm install -g --ignore-scripts @agegr/pi-web
 
 rem this is SysInternals Suite
 winget install -e 9P7KNL5RWT25
