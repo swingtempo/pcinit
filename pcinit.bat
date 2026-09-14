@@ -146,10 +146,10 @@ git config --global user.name %USERNAME%
 git config --global user.email %USERNAME%
 
 rem Windows Defender exclusions
-powershell -Command Add-MpPreference -ExclusionPath "D:\src"
-powershell -Command Add-MpPreference -ExclusionPath "c:\src"
-powershell -Command Add-MpPreference -ExclusionPath "$env:localappdata\npm-cache"
-powershell -Command Add-MpPreference -ExclusionPath "$env:localappdata\yarn"
+rem powershell -Command Add-MpPreference -ExclusionPath "D:\src"
+rem powershell -Command Add-MpPreference -ExclusionPath "c:\src"
+rem powershell -Command Add-MpPreference -ExclusionPath "$env:localappdata\npm-cache"
+rem powershell -Command Add-MpPreference -ExclusionPath "$env:localappdata\yarn"
 
 rem remove Notepad alias - not sure that this works!!
 rem powershell -inputformat none -outputformat none -NonInteractive -Command remove-item Alias:notepad
